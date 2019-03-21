@@ -33,7 +33,7 @@ nav img{
   float: right;
 }
 .socialMedia{
-  margin-left: 29vw;
+  margin-left: 31vw;
   margin-top: 1.61vw;
   margin-bottom:1.6vw;
 }
@@ -91,11 +91,13 @@ main{
   bottom: 11.788vw;
 }
 h1 span{
+  color: rgb(68,68,68);
   font-family: 'Harmony';
   font-size: 16.25vw;
   margin: 0;
 }
 h1{
+  color: rgb(85,85,85);
   line-height: 7vw;
   margin: 0;
   font-family: 'MontserratAlternates-Thin.otf';
@@ -111,4 +113,16 @@ h1{
   position: absolute;
   right: 36vw;
   bottom: 20vw;
+  animation-name: oilDrop;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes oilDrop{
+  0%{
+    bottom: 20vw;
+  }
+  100%{
+    bottom: 17vw;
+  }
 }
