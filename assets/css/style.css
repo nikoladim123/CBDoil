@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'MontserratAlternates-Medium';
+  src: url('../fonts/MontserratAlternates-Medium.otf') format('truetype');
+}
+@font-face {
+  font-family: 'MontserratAlternates-Thin.otf';
+  src: url('../fonts/MontserratAlternates-Thin.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Harmony';
+  src: url('../fonts/Harmony.otf') format('truetype');
+}
+
+body{
+  margin: 0;
+}
+
+nav{
+  position: relative;
+  height: 8.784vw;
+  background-color: rgb(155,225,103);
+  border-bottom: 0.780vw solid rgb(219,219,219);
+}
+
+nav img{
+  width: 11.127vw;
+  height: 8.7359vw;
+  margin-left: 2.049vw;
+  margin-top: 1.4vw;
+}
+
+.links{
+  float: right;
+}
+.socialMedia{
+  margin-left: 29vw;
+  margin-top: 1.61vw;
+  margin-bottom:1.6vw;
+}
+
+.socialMedia .fab{
+  transition: 1s;
+  background: linear-gradient(to bottom, rgba(225,205,107,1) 0%, rgba(225,162,68,1) 100%);
+  color: white;
+  font-size: 1vw;
+  border-radius: 50%;
+  padding: 0.6vw;
+  margin-right: 0.78vw;
+}
+.socialMedia .fa-facebook-f{
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+}
+.socialMedia .fab:hover{
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
+.navLinks{
+  margin-right: 2.196vw;
+}
+
+.navLinks a{
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.171vw;
+  font-family: 'MontserratAlternates-Medium';
+  color: rgb(93,104,92);
+  margin-right: 1.464vw;
+}
+.navLinks a:hover{
+  text-decoration: underline;
+}
+/* main */
+main{
+  padding-top: 0.1px;
+  position: relative;
+  height: 57.1vw;
+  margin-bottom: 30vw;
+}
+.bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.oilBottles{
+  position: absolute;
+  width: 40.0195vw;
+  height: 41.825vw;
+  left: 8.2vw;
+  bottom: 11.789vw;
+}
+h1 span{
+  font-family: 'Harmony';
+  font-size: 16.25vw;
+  margin: 0;
+}
+h1{
+  line-height: 7vw;
+  margin: 0;
+  font-family: 'MontserratAlternates-Thin.otf';
+  font-size: 7.564vw;
+  position: absolute;
+  top: 5.5vw;
+  right: 6.246vw;
+}
+
+.oilDrop{
+  width: 12.2vw;
+  height: 12.2vw;
+  position: absolute;
+  right: 36vw;
+  bottom: 20vw;
+}
